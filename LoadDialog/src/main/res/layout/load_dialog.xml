@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/shape_dialog_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true">
+
+
+        <com.lisn.loaddialog.View.CircleProgress
+            android:id="@+id/dialog_progressBar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            custom:circleColor="#7f474747"
+            custom:isClockwise="true"
+            custom:maxRadius="3dp"
+            custom:minRadius="2dp"
+            custom:numOfCircles="8"
+            custom:rotateSpeedInMillis="100" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_load_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="正在加载"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+</RelativeLayout>

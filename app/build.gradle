@@ -1,0 +1,19 @@
+apply plugin: 'com.android.application'
+apply from: "../basic.gradle"
+android {
+    defaultConfig {
+        applicationId "com.lisn.loaddialogdemo"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation project(path: ':LoadDialog')
+//    implementation  'com.lisn:loading_dialog:1.0.0'
+//    implementation  'com.lisn:LoadDialog:1.0.1'
+}
