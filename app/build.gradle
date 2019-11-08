@@ -13,7 +13,9 @@ android {
 }
 
 dependencies {
-    implementation project(path: ':LoadDialog')
+
 //    implementation  'com.lisn:loading_dialog:1.0.0'
 //    implementation  'com.lisn:LoadDialog:1.0.1'
+    implementation rootProject.ext.dependencies.loadDialog
+    //implementation project(path: ':LoadDialog')
 }

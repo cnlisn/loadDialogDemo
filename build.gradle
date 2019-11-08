@@ -28,6 +28,7 @@ buildscript {
                 banner                   : "2.3.5",
                 actionbarsg              : "1.0.0",
                 swipepanel               : "1.0.0",
+                loadDialog               : "1.0.1",
 
                 butterknife              : "8.8.1",
                 eventbus                 : "3.1.1",
@@ -70,6 +71,7 @@ buildscript {
                 banner                   : "com.lisn:bannerview:$versions.banner",
                 actionbar                : "com.lisn:actionbarsg:$versions.actionbarsg",
                 swipepanel               : "com.lisn:swipepanel:$versions.swipepanel",
+                loadDialog               : "com.lisn:LoadDialog:$versions.loadDialog",
 
                 butterknife              : "com.jakewharton:butterknife:$versions.butterknife",
                 butterknifeCompiler      : "com.jakewharton:butterknife-compiler:$versions.butterknife",
