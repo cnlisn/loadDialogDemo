@@ -19,6 +19,7 @@ buildscript {
                 targetCompatibility: JavaVersion.VERSION_1_8,
         ]
 
+
         versions = [
                 appcompat                : "28.0.0",
                 multidex                 : "1.0.3",
@@ -28,6 +29,7 @@ buildscript {
                 banner                   : "2.3.5",
                 actionbarsg              : "1.0.0",
                 swipepanel               : "1.0.0",
+                rxPermissionlib          : "1.0.0",
                 loadDialog               : "1.0.1",
 
                 butterknife              : "8.8.1",
@@ -57,7 +59,6 @@ buildscript {
                 smartRefreshHeader       : "1.1.0",
 
         ]
-
         dependencies = [
                 appcompatV7              : "com.android.support:appcompat-v7:$versions.appcompat",
                 design                   : "com.android.support:design:$versions.appcompat",
@@ -72,6 +73,7 @@ buildscript {
                 actionbar                : "com.lisn:actionbarsg:$versions.actionbarsg",
                 swipepanel               : "com.lisn:swipepanel:$versions.swipepanel",
                 loadDialog               : "com.lisn:LoadDialog:$versions.loadDialog",
+                rxPermission             : "com.lisn:rxpermissionlib:$versions.rxPermissionlib",
 
                 butterknife              : "com.jakewharton:butterknife:$versions.butterknife",
                 butterknifeCompiler      : "com.jakewharton:butterknife-compiler:$versions.butterknife",
@@ -114,7 +116,7 @@ buildscript {
     repositories {
         google()
         jcenter()
-        
+
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.0'
@@ -128,7 +130,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
+
     }
 }
 
