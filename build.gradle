@@ -30,6 +30,7 @@ buildscript {
                 actionbarsg              : "1.0.0",
                 swipepanel               : "1.0.0",
                 rxPermissionlib          : "1.0.0",
+                tabRadioButton           : "1.0.0",
                 loadDialog               : "1.0.1",
 
                 butterknife              : "8.8.1",
@@ -74,6 +75,7 @@ buildscript {
                 swipepanel               : "com.lisn:swipepanel:$versions.swipepanel",
                 loadDialog               : "com.lisn:LoadDialog:$versions.loadDialog",
                 rxPermission             : "com.lisn:rxpermissionlib:$versions.rxPermissionlib",
+                tabRadioButton           : "com.lisn:tabradiobutton:$versions.tabRadioButton",
 
                 butterknife              : "com.jakewharton:butterknife:$versions.butterknife",
                 butterknifeCompiler      : "com.jakewharton:butterknife-compiler:$versions.butterknife",
